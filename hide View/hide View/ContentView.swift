@@ -8,8 +8,13 @@
 import SwiftUI
 
 struct SecondView: View {
+   // var name: String
+    @Environment(\.presentationMode) var presentationMode
     var body: some View {
-        Text("SecondView")
+       // Text("Hello,\(name)")
+        Button("Dissmis") {
+            self.presentationMode.wrappedValue.dismiss()
+        }
     }
 }
 struct ContentView: View {
