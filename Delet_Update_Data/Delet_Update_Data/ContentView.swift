@@ -17,6 +17,7 @@ struct ContentView: View {
                 ForEach(numbers, id: \.self) {
                     Text("\($0)")
                 }
+                .onDelete(perform: removeRows)
             }
             Button("Add Number") {
                 self.numbers.append(self.currentNumber)
