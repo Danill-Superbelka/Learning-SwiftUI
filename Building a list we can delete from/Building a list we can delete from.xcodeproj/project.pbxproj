@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5AC17C226AB58D4009A8FFF /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AC17C126AB58D4009A8FFF /* AddView.swift */; };
 		A5DA7B5E26A9C518008BD77D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DA7B5D26A9C518008BD77D /* AppDelegate.swift */; };
 		A5DA7B6026A9C518008BD77D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DA7B5F26A9C518008BD77D /* SceneDelegate.swift */; };
 		A5DA7B6226A9C518008BD77D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DA7B6126A9C518008BD77D /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5AC17C126AB58D4009A8FFF /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = SOURCE_ROOT; };
 		A5DA7B5A26A9C518008BD77D /* Building a list we can delete from.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Building a list we can delete from.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5DA7B5D26A9C518008BD77D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5DA7B5F26A9C518008BD77D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		A5DA7B5C26A9C518008BD77D /* Building a list we can delete from */ = {
 			isa = PBXGroup;
 			children = (
+				A5AC17C126AB58D4009A8FFF /* AddView.swift */,
 				A5DA7B5D26A9C518008BD77D /* AppDelegate.swift */,
 				A5DA7B5F26A9C518008BD77D /* SceneDelegate.swift */,
 				A5DA7B6126A9C518008BD77D /* ContentView.swift */,
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5AC17C226AB58D4009A8FFF /* AddView.swift in Sources */,
 				A5DA7B5E26A9C518008BD77D /* AppDelegate.swift in Sources */,
 				A5DA7B6026A9C518008BD77D /* SceneDelegate.swift in Sources */,
 				A5DA7B6226A9C518008BD77D /* ContentView.swift in Sources */,
