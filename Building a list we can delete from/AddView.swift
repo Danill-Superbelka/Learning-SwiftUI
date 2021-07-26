@@ -16,6 +16,8 @@ struct AddView: View {
     
     @ObservedObject var expenses: Expenses
     
+    @Environment(\.presentationMode) var presantationMode
+    
     var body: some View {
         NavigationView {
             Form {
@@ -33,6 +35,7 @@ struct AddView: View {
                 if let actualAmount = Int(self.amount) {
                     let item = ExpenseItem(name: self.name, type: self.type, amount: actualAmount)
                     self.expenses.items.append(item)
+                    self.presantationMode.wrappedValue.dismiss()
                 }
             })
         }
