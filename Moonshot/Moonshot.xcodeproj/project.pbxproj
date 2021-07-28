@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5481D6A26B1BB2600298459 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5481D6926B1BB2600298459 /* MissionView.swift */; };
 		A5AC17F026B08745009A8FFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AC17EF26B08745009A8FFF /* AppDelegate.swift */; };
 		A5AC17F226B08745009A8FFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AC17F126B08745009A8FFF /* SceneDelegate.swift */; };
 		A5AC17F426B08745009A8FFF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5AC17F326B08745009A8FFF /* ContentView.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5481D6926B1BB2600298459 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		A5AC17EC26B08745009A8FFF /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5AC17EF26B08745009A8FFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5AC17F126B08745009A8FFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				A5AC17EF26B08745009A8FFF /* AppDelegate.swift */,
 				A5AC17F126B08745009A8FFF /* SceneDelegate.swift */,
 				A5AC17F326B08745009A8FFF /* ContentView.swift */,
+				A5481D6926B1BB2600298459 /* MissionView.swift */,
 				A5AC180B26B157FD009A8FFF /* Missions.swift */,
 				A5AC180726B154CB009A8FFF /* Astronaut.swift */,
 				A5AC180926B1555B009A8FFF /* Bundle-Decodable.swift */,
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5481D6A26B1BB2600298459 /* MissionView.swift in Sources */,
 				A5AC180C26B157FD009A8FFF /* Missions.swift in Sources */,
 				A5AC17F026B08745009A8FFF /* AppDelegate.swift in Sources */,
 				A5AC17F226B08745009A8FFF /* SceneDelegate.swift in Sources */,

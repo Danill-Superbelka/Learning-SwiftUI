@@ -14,16 +14,16 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(missions) { mission in
-                NavigationLink(destination: Text("Detail view")) {
+                NavigationLink(destination: Text("Detail View")) {
                     Image(mission.image)
                         .resizable()
-                        .scaledToFit
+                        .scaledToFit()
                         .frame(width: 44, height: 44)
                     
                     VStack(alignment: .leading) {
                         Text(mission.displayName)
                             .font(.headline)
-                        Text(mission.launchDate ?? "N/A")
+                        Text(mission.formattedLaunchDate)
                     }
                 }
             }
@@ -31,9 +31,9 @@ struct ContentView: View {
         }
     }
 }
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
-}
