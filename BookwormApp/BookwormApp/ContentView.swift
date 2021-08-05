@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Bookworm
+//  BookwormApp
 //
 //  Created by Даниил  on 05.08.2021.
 //
