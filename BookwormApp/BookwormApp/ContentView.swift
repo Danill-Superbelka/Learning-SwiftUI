@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     @Environment(\.managedObjectContext) var moc
-    @FetchRequest(entity: Book.entity(), sortDescriptors: []) var books: FetchedResults<Book>
 
     @State private var showingAddScreen = false
     @State private var title = ""
@@ -45,8 +44,16 @@ struct ContentView: View {
                 }
                 
                 Section{
+                    
                     Button("Save"){
-                       let newBook =
+                        let newBook = Book(context: self.moc)
+                        newBook.title = self.title
+                        newBook.author = self.author
+                        newBook.rating = Int16(self.rating)
+                        newBook.genre = self.genre
+                        newBook.review = self.review
+                        
+                        try? self.moc.save()
                     }
                 }
             }
