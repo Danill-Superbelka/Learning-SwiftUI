@@ -40,7 +40,7 @@ struct ContentView: View {
         .navigationBarItems(leading: EditButton() ,trailing: Button(action: {
             self.showingAddScreen.toggle()
         }) {
-            Image(systemName: "Plus")
+            Image(systemName: "plus")
             
             }
         )
